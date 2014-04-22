@@ -1,0 +1,18 @@
+to clone a repo on github:
+
+fork the repository on github
+
+cd <directory> - make sure in the correct directory before initialising git
+git init
+git clone https://github.com/your-user/ProgrammingAssignment2.git
+
+
+to push a file to github:
+
+cd <directory>
+git init
+git add HelloWorld.md
+git commit -m "First Commit"
+## git remote add origin https://github.com/your-user/-datasciencecoursera.git - don't think you need this
+git push -u origin master
+
